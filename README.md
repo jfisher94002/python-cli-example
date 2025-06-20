@@ -36,6 +36,9 @@ These are all the tools and editor extensions recommended for Python development
 ## Working with Modules
 Adding modules (Python files) is as easy as adding more files. But you can also add a directory and add an `__init__.py` file to it. This will allow you to import the modules from the directory as if they were part of the same file. There are some caveats and things to keep in mind when working with modules, and what strategies you can use to make your code more maintainable and easier to understand for you as well as other developers.
 
+## Added GitHub Actions python template for building 
+
+
 1. Use the [ceph-volume](https://github.com/ceph/ceph/tree/main/src/ceph-volume/ceph_volume) command-line tool as an example to explore module organizing
 1. Add imports to `__init__.py` as a shorthand for making modules available, but be aware of side effects
 1. Use relative imports to avoid circular imports and understand absolute 
